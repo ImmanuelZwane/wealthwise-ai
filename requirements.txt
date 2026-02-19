@@ -1,0 +1,6 @@
+ streamlit
+pandas
+yfinance
+plotly
+google-generativeai
+python-dotenv   # optional, for loading API key from .env file
