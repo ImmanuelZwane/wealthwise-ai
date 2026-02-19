@@ -166,7 +166,7 @@ def convert(usd_amount):
 
 # ---------- Main Dashboard ----------
 # Top metrics (converted)
-st.subheader("📈 Portfolio Overview")
+st.subheader(" Portfolio Overview")
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     total_value_converted = convert(portfolio_agent.total_value)
